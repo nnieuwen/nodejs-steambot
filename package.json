@@ -1,0 +1,19 @@
+{
+  "name": "steambot-keys-sss.tf",
+  "version": "1.0.0",
+  "description": "A steambot for SSS.TF",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nnieuwen",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "steam-totp": "^2.1.0",
+    "steam-tradeoffer-manager": "^2.9.5",
+    "steam-user": "^4.2.1",
+    "steamcommunity": "^3.38.0"
+  }
+}
